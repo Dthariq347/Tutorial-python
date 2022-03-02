@@ -76,5 +76,5 @@ x = 5 # ini adalah assignment membuat object
 y = 5
 print('nilai x =',x,',id = ',hex(id(x)))
 print('nilai y =',x,',id = ',hex(id(y)))
-hasil = x is not y 
-print('x is not y', hasil)
+hasil = x is y 
+print('x is y', hasil)
